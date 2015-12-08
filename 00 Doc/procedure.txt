@@ -1,0 +1,33 @@
+Boxplot
+Columns : Country
+Rows : Year
+Filters : Counter -> East Germany, Germany, Russia, Soviet Union, West Germany
+
+
+Histogram
+Columns : Year (bin)
+Rows : CNT(Year)
+Filters : Year -> 1896-2008
+Marks : Color -> Metal : Bronze, Silver, Gold
+	Text -> Host City
+
+Scatterplot 
+(2 green things - measures)
+Columns : Total Metals Per Year Men
+Rows : Total Metals Per Year Women
+Marks : Color -> Year : 1896-2008
+Trend Line
+
+Crosstab Map with KPI
+Columns : Longitude
+Rows : Latitude
+Filters : Country -> Excluded US and Soviet Union (outliers)
+Marks : Color -> AGG(Country Metal KPI) : Red to Green
+Filled Map
+KPI determined by SUM(Total Metals Country Overall) / 184. 184 is the average amount of number of metals won per country.
+
+Barchart
+Columns : ATTR(Total Metals Country Overall)
+Rows : Country
+Marks : Text -> ATTR(Total Metals Country Overall)
+Reference Line : Average of 184

@@ -48,6 +48,13 @@ require(dplyr)
 source("../01 Data/olympicsdataframe.R", echo = TRUE)
 ```
 
+## Connecting to our Oracle Databases in Tableau
+* Enter in the login details given on our class website to access your tables in your Oracle account.  
+* Select your database connection, depending on your UT EID, and select the table you want.  
+
+![](tab1.jpg)
+![](tab2.jpg)
+![](tab3.jpg)
 
 ## Visualizations
 #### Barchart

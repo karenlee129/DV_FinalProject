@@ -126,6 +126,9 @@ This map shows the total number of medals won by each country throughout the his
 *The US and Soviet Union are excluded as they had won far more than the other countries.   
   
 ## Shiny App:
+![](shinyserver.jpg) 
+![](shinyui.jpg)   
+
 https://ronly.shinyapps.io/DV_FinalProject  
 
 

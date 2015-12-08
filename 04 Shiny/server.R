@@ -32,7 +32,7 @@ shinyServer(function(input, output) {
   
   
   # First ggplot------------------------------------------------------
-  output$distPlot1 <- renderPlot(height=400, width=600, {
+  output$distPlot1 <- renderPlot(height=600, width=900, {
     scatterplot <- df1() %>% select(COUNTRY, GP, SP, BP) %>% group_by(COUNTRY) %>% subset(COUNTRY %in% checkBoxes())
     plot1 <- ggplot() + 
       geom_point() +
